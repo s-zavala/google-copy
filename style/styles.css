@@ -1,0 +1,145 @@
+/* pancake stack*/
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+/* deconstructed pancake*/
+.parent-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    flex: 1 1 300px;
+    margin: 5px;
+}
+
+/* super centered */
+.super-centered {
+    display: grid;
+    place-items: center;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.left-nav {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+#product-icon {
+    padding: 5px;
+    margin: auto 5px auto 15px;
+}
+
+#leaf-icon {
+    height: 14px;
+    margin-right: 6px;
+}
+
+#sign-icon {
+    padding: 9px 23px;
+    margin: auto 5px auto 15px;
+    border-radius: 10%;
+    color: white;
+    border: 1px outset #1a73e8;
+    background-color: #1a73e8;
+    cursor: pointer;
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button {
+    margin: 11px 7px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 15px;
+}
+
+.submit-button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+#search-bar {
+    padding: 20px;
+    padding-top: 6px;
+    max-height: 160px;
+    width: auto;
+    max-width: 584px;
+    margin: 0 auto;
+}
+
+#bar {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 584px;
+    height: 44px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#bar:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+input[type="search"] {
+    width: 542px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+header {
+    background-color: #fff;
+}
+
+main {
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #70757a;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    margin: auto 5px auto 15px;
+    color: inherit;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
